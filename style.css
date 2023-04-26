@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans';
 }
-
 /*estilização imagem de fundo*/
 .backgroud{
     background-image: url(Gustavo3.jpg);
@@ -13,7 +12,6 @@
     height: 100vh;
     width: 100%;
 }
-
 /*estilização barra menu*/
 nav{
     display: flex;
@@ -39,7 +37,6 @@ nav ul li a:hover{
     transform: scale(1.2);
     transition: .3s;
 }
-
 /*estilização Logo*/
 nav h2{
     color: white;
@@ -51,7 +48,6 @@ span{
     color: #8B0000;
 
 }
-
 /*estilização botão*/
 .btn{
     background-color: #8B0000;
@@ -61,7 +57,6 @@ span{
     padding: 10px 25px;
     border-radius: 30px;
 }
-
 /*estilização segunda sessão*/
 .Main{
     position: absolute;
@@ -127,9 +122,7 @@ h3{
     margin-right: 50px;
     margin-bottom: 2px;
 }
-
 /*estilização barra menu responsivo*/
-
 aside{
     position: absolute;
     top: 0;
@@ -175,10 +168,7 @@ aside{
     gap: 15px;
     overflow: hidden;
 }
-
-
-
-
+/* estilização sobre o artista*/
 .text-sobre{
     width: 550px;
 }
@@ -353,14 +343,53 @@ line-height: 25px;
  transform: scale(1.2);
  transition: .5s;
 }
-
 .End p{
     position: relative;
     color: #8B0000;
     top: 35px;
     font-size: 14px;
 }
+/*estilização index 2*/
 
+.container-realismo{
+    background-color: #101010;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.Main-realismo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 0px;
+}
+.backgroud-color-realismo img{
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+.button-realismo{
+    background-color: #8B0000;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.button-realismo:hover{
+    background-color: transparent;
+    border: 2px solid #8B0000;
+    cursor: pointer;
+}
+
+/*responsividade*/
 @media screen and (max-width: 730px) {
     nav ul{
         display: none;
@@ -398,7 +427,6 @@ line-height: 25px;
     }
 
 }
-
 @media screen and (max-width:375px){
 
     .icon-menu .menu{
@@ -480,7 +508,6 @@ line-height: 25px;
     margin-bottom: 40px;
    }
 }
-
 @media screen and (max-width: 844px) {
     nav ul{
         display: none;
@@ -518,7 +545,6 @@ line-height: 25px;
     }
 
 }
-
 @media screen and (max-width:390px){
 
     .icon-menu .menu{
@@ -600,8 +626,6 @@ line-height: 25px;
     margin-bottom: 40px;
    }
 }
-
-
 @media screen and (max-width: 896px) {
     nav ul{
         display: none;
@@ -639,7 +663,6 @@ line-height: 25px;
     }
 
 }
-
 @media screen and (max-width:414px){
 
     .icon-menu .menu{
