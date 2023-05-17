@@ -6,7 +6,7 @@
 }
 /*estilização imagem de fundo*/
 .backgroud{
-    background-image: url(Gustavo3.jpg);
+    background-image: url(Gustavo.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -576,6 +576,7 @@ margin-bottom: 20px;
         width: 280px;
         height: auto;
         border-radius: 15px;
+        background-image: url(Gustavo.jpg);
     }
     .text-sobre h2{
         font-size: 45px;
