@@ -356,7 +356,6 @@ line-height: 25px;
     width: 100%;
     padding: 30px 0px;
 }
-
 .Main-realismo{
     display: flex;
     align-items: center;
@@ -365,6 +364,10 @@ line-height: 25px;
     width: 100%;
     padding: 100px 0px;
 }
+.backgroud-color-realismo
+{
+    background-color: #191919;
+}
 .backgroud-color-realismo img{
     width: 300px;
     height: auto;
@@ -372,7 +375,6 @@ line-height: 25px;
     margin-bottom: 2px;
     border-radius: 5px;
 }
-
 .button-realismo{
     background-color: #8B0000;
     color: #fff;
@@ -383,6 +385,24 @@ line-height: 25px;
     border-radius: 30px;
     transition: .4s;
 }
+.backgroud-color-realismo {
+position: relative; 
+text-align: center;
+}
+.backgroud-color-realismo img {
+display: block;
+  margin: 0 auto;
+}
+
+.button-realismo {
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+border-right: 100px;
+margin-bottom: 20px;
+}
+
 .button-realismo:hover{
     background-color: transparent;
     border: 2px solid #8B0000;
@@ -744,3 +764,5 @@ line-height: 25px;
     margin-bottom: 40px;
    }
 }
+
+
