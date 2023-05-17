@@ -422,7 +422,6 @@ text-align: center;
 display: block;
   margin: 0 auto;
 }
-
 .button-florais{
 position: absolute;
 bottom: 0;
@@ -431,7 +430,6 @@ transform: translateX(-50%);
 border-right: 100px;
 margin-bottom: 20px;
 }
-
 .button-florais:hover{
     background-color: transparent;
     border: 2px solid #8B0000;
@@ -480,7 +478,6 @@ text-align: center;
 display: block;
   margin: 0 auto;
 }
-
 .button-fineline{
 position: absolute;
 bottom: 0;
@@ -489,12 +486,75 @@ transform: translateX(-50%);
 border-right: 100px;
 margin-bottom: 20px;
 }
-
 .button-fineline:hover{
     background-color: transparent;
     border: 2px solid #8B0000;
     cursor: pointer;
 }
+/*estilização index 5*/
+.container-workshop{
+    background-color: #101010;
+    width: 100%;
+    padding: 30px 0px;
+}
+.backgroud-color-workshop
+{
+    background-color: #191919;
+}
+.backgroud-color-workshop{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+.text-workshop{
+    width: 550px;
+}
+.Main-workshop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 0px;
+  
+}
+.text-workshop h2{
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.text-workshop h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  
+}
+.text-workshop p{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.button{
+    background-color: #8B0000;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #8B0000;
+    cursor: pointer;
+}
+
 /*responsividade*/
 @media screen and (max-width: 730px) {
     nav ul{
